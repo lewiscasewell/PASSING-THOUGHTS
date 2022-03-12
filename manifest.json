@@ -1,0 +1,33 @@
+{
+  "lang": "en-US",
+  "theme_color": "#e9f6f5",
+  "background_color": "#e9f6f5",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/index.html",
+  "name": "PASSING-THOUGHTS",
+  "short_name": "PASSING-THOUGHTS",
+  "description": "Get things off your chest, anonymously.",
+  "icons": [
+    {
+      "src": "/img/icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icons/icon-256x256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/img/icons/icon-384x384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "/img/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

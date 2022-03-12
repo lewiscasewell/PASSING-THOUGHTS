@@ -1,0 +1,86 @@
+/* colours */
+:root {
+  --primary: #e9f6f5;
+  --secondary: #d4edeb;
+  --title: #26a69a;
+}
+
+.nav-content {
+  max-width: 768px;
+  margin: auto;
+}
+
+/* layout styles */
+nav {
+  background: var(--primary);
+  border-bottom: 10px solid var(--secondary);
+  padding-bottom: 50px;
+}
+nav a {
+  text-transform: uppercase;
+  color: var(--title);
+}
+nav a span {
+  font-weight: bold;
+}
+nav .sidenav-trigger {
+  margin: 0;
+}
+.download-btn {
+  box-shadow: none;
+}
+
+/* thought styles */
+.add-card {
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 1px 3px rgba(90, 90, 90, 0.1);
+  cursor: pointer;
+}
+.thoughts {
+  margin-top: 20px;
+  max-width: 768px;
+  margin-inline: auto;
+}
+.card-panel.thought {
+  border-radius: 8px;
+  box-shadow: 0px 1px 3px rgba(90, 90, 90, 0.1);
+  position: relative;
+}
+.thought-delete {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+.thought-delete i {
+  font-size: 18px;
+  cursor: pointer;
+}
+.thought-title {
+  font-weight: bold;
+}
+.thought-ingredients {
+  font-size: 0.8em;
+}
+
+/* form-styles */
+.add-btn {
+  background: var(--title) !important;
+  margin-top: 10px;
+  box-shadow: none;
+}
+input {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+.side-form button {
+  background: var(--title);
+  box-shadow: 1px 1px 3px rgba(90, 90, 90, 0.2);
+}
+form .input-field {
+  margin-top: 30px;
+}
+.download-btn {
+  background: var(--title);
+  margin-right: 20px;
+}

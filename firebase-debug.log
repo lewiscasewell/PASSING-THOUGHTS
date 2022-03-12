@@ -1,0 +1,24 @@
+[debug] [2022-03-12T11:56:01.133Z] ----------------------------------------------------------------------
+[debug] [2022-03-12T11:56:01.134Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2022-03-12T11:56:01.134Z] CLI Version:   10.2.2
+[debug] [2022-03-12T11:56:01.134Z] Platform:      darwin
+[debug] [2022-03-12T11:56:01.134Z] Node Version:  v14.17.6
+[debug] [2022-03-12T11:56:01.135Z] Time:          Sat Mar 12 2022 11:56:01 GMT+0000 (Greenwich Mean Time)
+[debug] [2022-03-12T11:56:01.136Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-12T11:56:01.140Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-03-12T11:56:01.160Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-12T11:56:01.160Z] > authorizing via signed-in user (lewiscasewell@hotmail.co.uk)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/lewiscasewell/MealPrep
+
+[debug] [2022-03-12T11:56:01.586Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-03-12T11:56:01.601Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
