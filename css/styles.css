@@ -39,9 +39,9 @@ nav .sidenav-trigger {
 }
 .thoughts {
   margin-top: 20px;
-  margin-bottom: 50px;
   max-width: 768px;
   margin-inline: auto;
+  margin-bottom: 60px;
 }
 .card-panel.thought {
   border-radius: 8px;
